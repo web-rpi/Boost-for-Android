@@ -665,7 +665,7 @@ echo "Building boost for android for $ARCH"
         toolset=${TOOLSET_ARCH}      \
         $cflags                      \
         $cxxflags                    \
-        link=static                  \
+        link=shared                  \
         threading=multi              \
         --layout=${LAYOUT}           \
         $WITHOUT_LIBRARIES           \
